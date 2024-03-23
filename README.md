@@ -16,10 +16,14 @@ int	main(void)
 	t_person	*pquline;
 
 	pquline = (t_person *)malloc(sizeof(t_person));
-	pquline->name = "Pauline";
-	pquline->location = "Paris, France";
-	pquline->current_school = "École 42";
-	pquline->age = 27;
+	if (pquline != NULL)
+	{
+		pquline->name = "Pauline";
+		pquline->location = "Paris, France";
+		pquline->current_school = "École 42";
+		pquline->age = 27;
+	}
+	return (0);
 }
 ```
 
