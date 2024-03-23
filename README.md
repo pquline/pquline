@@ -25,6 +25,6 @@ int	main(void)
 
 ### Current interests
 
-- 🕵️ Open Source Intelligence (OSINT)
 - 🏠 Home Automation
+- 🕵️ Open Source Intelligence (OSINT)
 - 🚀 Self-hosting & Deployment
