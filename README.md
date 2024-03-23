@@ -1,16 +1,30 @@
-### Hi there 👋
+### About me
 
-<!--
-**pquline/pquline** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```c
+#include <stdlib.h>
 
-Here are some ideas to get you started:
+typedef struct s_person
+{
+	char			*name;
+	char			*location;
+	char			*current_school;
+	unsigned int	age;
+}					t_person;
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+int	main(void)
+{
+	t_person	*pquline;
+
+	pquline = (t_person *)malloc(sizeof(t_person));
+	pquline->name = "Pauline";
+	pquline->location = "Paris, France";
+	pquline->current_school = "École 42";
+	pquline->age = 27;
+}
+```
+
+### Current interests
+
+- 🕵️ Open Source Intelligence (OSINT)
+- 🏠 Home Automation
+- 🚀 Self-hosting & Deployment
