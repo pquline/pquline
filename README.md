@@ -8,8 +8,8 @@ typedef struct s_person
 	char			*name;
 	char			*location;
 	char			*current_school;
-	unsigned int	age;
-}					t_person;
+	unsigned int		age;
+}				t_person;
 
 int	main(void)
 {
