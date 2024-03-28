@@ -21,7 +21,7 @@ int	main(void)
 		pquline->name = "Pauline";
 		pquline->location = "Paris, France";
 		pquline->current_school = "École 42";
-		pquline->age = 27;
+		pquline->age = 28;
 	}
 	return (0);
 }
