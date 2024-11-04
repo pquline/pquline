@@ -32,3 +32,4 @@ int	main(void)
 - 🏠 Home Automation
 - 🕵️ Open Source Intelligence (OSINT)
 - 🚀 Self-hosting & Deployment
+- 🌐 [42LogTime](https://42logtime.fr/)
