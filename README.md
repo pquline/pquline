@@ -1,28 +1,35 @@
 ### About me
 
-```c
-#include <stdlib.h>
-#include <string.h>
+```c++
+#include <iostream>
+#include <string>
 
-typedef struct s_dev
+class	Dev
 {
-	char			*name;
-	char			*location;
-	char			*current_school;
-	unsigned int		age;
-}	t_dev;
+	public:
 
-void	code(t_dev *dev);
+		Dev(void);
+		~Dev(void);
+		Dev(const Dev &copy);
+		Dev	&operator=(const Dev &copy);
+
+		Dev(std::string name, std::string location, std::string school, std::size_t age);
+
+		void	code(void);
+
+	private:
+
+		std::string	_name;
+		std::string	_location;
+		std::string	_school;
+		std::size_t	_age;
+};
 
 int	main(void)
 {
-	t_dev	pquline;
+	Dev	pquline("Pauline", "Paris, France", "École 42", 28);
 
-	pquline.name = strdup("Pauline");
-	pquline.location = strdup("Paris, France");
-	pquline.current_school = strdup("École 42");
-	pquline.age = 28;
-	code(&pquline);
+	pquline.code();
 	return (0);
 }
 ```
