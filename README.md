@@ -13,9 +13,9 @@ class	Dev
 		Dev(const Dev &copy);
 		Dev	&operator=(const Dev &copy);
 
-		Dev(std::string name, std::string location, std::string school, std::size_t age);
+		Dev(const std::string name, const std::string location, const std::string school, const std::size_t age);
 
-		void	code(void);
+		void	code(void) const;
 
 	private:
 
