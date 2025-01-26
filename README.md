@@ -4,39 +4,28 @@
 #include <iostream>
 #include <string>
 
-class	Dev
+class Dev
 {
-	public:
-
-		Dev(void);
-		~Dev(void);
-		Dev(const Dev &copy);
-		Dev	&operator=(const Dev &copy);
-
-		Dev(const std::string name, const std::string location, const std::string school, const std::size_t age);
-
-		void	code(void) const;
-
-	private:
-
-		std::string	_name;
-		std::string	_location;
-		std::string	_school;
-		std::size_t	_age;
+private:
+    std::string	_name;
+    std::string	_school;
+    std::string	_location;
+public:
+    Dev(const std::string &name, const std::string &school, const std::string &location);
+    void code(void) const;
 };
 
-int	main(void)
+int main(void)
 {
-	Dev	pquline("Pauline", "Paris, France", "École 42", 28);
-
-	pquline.code();
-	return (0);
+    Dev pquline("Pauline", "École 42", "Paris, France");
+    pquline.code();
+    return (0);
 }
 ```
 
 ### Current interests
 
-- 🏠 Home Automation
+- 🔐 Computer Security ([Root Me](https://www.root-me.org/pquline))
 - 🕵️ Open Source Intelligence (OSINT)
 - 🚀 Self-hosting & Deployment
-- 🌐 [42LogTime](https://42logtime.fr/)
+- 🌐 Web Development ([42LogTime](https://42logtime.fr/))
