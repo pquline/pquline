@@ -1,31 +1,23 @@
-### About me
-
-```c++
-#include <iostream>
-#include <string>
-
-class Dev
-{
-private:
-    std::string	_name;
-    std::string	_school;
-    std::string	_location;
-public:
-    Dev(const std::string &name, const std::string &school, const std::string &location);
-    void code(void) const;
-};
-
-int main(void)
-{
-    Dev pquline("Pauline", "École 42", "Paris, France");
-    pquline.code();
-    return (0);
-}
+```bash
+                             *      .       .
+                       .         .         . *
+                        .      ▄█████████▄                 pquline@github.com
+                             ███▀▀     ▀▀███               -------------------------
+                        *   ███         ████               Name:      Pauline
+                           ███    ░░    ███                School:    École 42
+                            ███▄     ▄████                 Location:  Paris, France
+                        .     ▀█████████▀
+                             *      .
 ```
 
-### Current interests
+#### 🔐 **Computer Security**  
+  - [root-me.org/pquline](https://www.root-me.org/pquline)
 
-- 🔐 Computer Security ([Root Me](https://www.root-me.org/pquline))
-- 🕵️ Open Source Intelligence (OSINT)
-- 🚀 Self-hosting & Deployment
-- 🌐 Web Development ([42LogTime](https://42logtime.fr/))
+#### 🕵️ **Open Source Intelligence (OSINT)**
+
+#### 🚀 **Self-Hosting & Deployment**
+
+#### 🌐 **Web Development**
+  - [volr](https://volr.cc)
+  - [ft_stats](https://stats.pfischof.com)
+  - [42logtime](https://42logtime.fr)
