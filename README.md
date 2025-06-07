@@ -19,5 +19,5 @@
 
 #### 🌐 **Web Development**
   - [volr](https://volr.cc)
-  - [ft_stats](https://stats.pfischof.com)
+  - [ft_portal](https://portal.pfischof.com)
   - [42logtime](https://42logtime.fr)
