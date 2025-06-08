@@ -20,4 +20,4 @@
 #### 🌐 **Web Development**
   - [volr](https://volr.cc)
   - [ft_portal](https://portal.pfischof.com)
-  - [42logtime](https://42logtime.fr)
+  - [ft_logtime](https://logtime.pfischof.com)
